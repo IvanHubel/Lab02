@@ -1,18 +1,27 @@
-## Getting Started
+# Tarea Calificada - Programación Paralela
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+**Curso:** Programación Paralela  
+**Número:** Tarea No.02  
+**Tema:** ForkJoin  
+**Duración estimada:** 01:40 horas  
 
-## Folder Structure
+## I. Objetivos
+- Utilizar el IDE de NetBeans
+- Crear un proyecto para un caso de estudio
+- Construir y ejecutar una aplicación con múltiples clases
+- Implementar solución usando ForkJoin
 
-The workspace contains two folders by default, where:
+## II. Resumen
+Este proyecto compara los tiempos de ejecución entre la ordenación secuencial y paralela de un arreglo de elementos, utilizando el framework ForkJoin de Java.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## III. Problemática
+Ordenar un conjunto de N elementos de forma secuencial y paralela para comparar tiempos de respuesta.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+**Ejemplo:**  
+Antes de ordenar:  
+`40 28 15 52 16 24 64 8 50 18`  
+`1  2  3  4  5  6  7  8  9  10`  
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Después de ordenar:  
+`8 15 16 18 24 28 40 50 52 64`  
+`1  2  3  4  5  6  7  8  9 10`
